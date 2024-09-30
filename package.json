@@ -1,15 +1,17 @@
 {
-  "name": "templiveserver",
+  "name": "webhook-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js", 
   "scripts": {
+    "start": "node server.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webhook", "express", "api", "node"],
+  "author": "Prathamesh Deshmukh",
   "license": "ISC",
-  "description": "",
+  "description": "A webhook server for Instagram, Facebook, and WhatsApp",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.0"
   }
 }
