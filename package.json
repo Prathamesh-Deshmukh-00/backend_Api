@@ -1,17 +1,29 @@
 {
   "name": "webhook-server",
   "version": "1.0.0",
-  "main": "server.js", 
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js", 
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["webhook", "express", "api", "node"],
+  "keywords": [
+    "webhook",
+    "express",
+    "api",
+    "node"
+  ],
   "author": "Prathamesh Deshmukh",
   "license": "ISC",
   "description": "A webhook server for Instagram, Facebook, and WhatsApp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prathamesh-Deshmukh-00/webhook-server.git"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
